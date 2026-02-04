@@ -11,17 +11,83 @@ nav{
     width: 20%;
    background-color: rebeccapurple;
    text-align: center;
+   border: 6px solid black;
     
 }
 
 main{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
 }
 
 header{
-    font-size: 300%;
-    margin-left: 100px;
+    font-size: 200%;
     text-align: center;
     background-color: blueviolet;
+    width: 80%;
+    border: 6px solid black;
+
 }
+
+line{
+    border-top: 10px solid;
+    margin: 20px 0;
+}
+
+#listy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkmagenta;
+    border: 6px solid black;
+    
+}
+
+
+a{
+    text-decoration: none;
+    padding: 22px;
+    background-color: darkblue;
+    width: 13%;
+    text-align: center;
+    align-self: center;
+    color: violet;
+}
+
+
+#big{
+    display: flex;
+    font-size: larger;
+}
+
+
+#mini1{
+    width: 20%;
+    border: 6px solid black;
+    text-align: center;
+}
+
+#mini2{
+    width: 80%;
+    background-color: blueviolet;
+    border: 6px solid black;
+
+}
+
+aside{
+    padding-left: 25px;
+    font-size: larger;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: brown;
+    font-size: large;
+    
+}
+
