@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Mega{
+    display: flex;
+}
+nav{
+    font-size: 500%;
+    height: 10%;
+    width: 20%;
+   background-color: rebeccapurple;
+   text-align: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-size: 300%;
+    margin-left: 100px;
+    text-align: center;
+    background-color: blueviolet;
+}
