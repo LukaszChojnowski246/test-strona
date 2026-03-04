@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Gaegu&display=swap');
+body{
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+#bigr{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 602px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #FFC10D;
+    border-color: #194F82;
+    font-size: 200%;
+    text-shadow: -1px -1px 0 #194F82, 1px -1px 0 #194F82, -1px 1px 0 #194F82, 1px 1px 0 #194F82;
+}
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #194F82;
+}
+#bi{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+#ski{
+    height: 300px;
+    width: 300px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+#mapa{
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+}
+
+#nag{
+    background-color: #194F82;
+    border-bottom-left-radius: 10px;
+    width: 1800px;
+    height: 100px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#wyc{
+    width: 300px;
+    margin: 10px;
+}
+#rodzic{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+}
+#bid{
+    display: flex;
+    flex-direction: row;
+    width: 1887px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+li{
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    list-style: inside;
+ }
+li:nth-child(even){
+    background-color: #FFC10D;
+}
+p{
+    display: flex;
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+#koszta{
+    width: 1154px;
+    height: 95px;
+    margin-top: 10px;
+    background-color: #194F82;
+    border-radius: 5px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #FFC10D;
+}
+.text{
+    font-size: 150%;
+    font-weight: 720;
+    margin: 0;
+    width: 300px;
+}
+#p1{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+#p2{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+#p3{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+#p4{
+    display: flex;
+    margin-top: 50px;
+    font-family: "Fuzzy Bubbles";
+    align-items: center;
+}
+#ulgi{
+    width: 25px;
+    height: 25px;
+}
+#ulgi2{
+    display: flex;
+    background-color: #FFC10D;
+    border-radius: 10px;
+    margin-left: 200px;
+    width: 654px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 120%;
+}
+button{
+    height: 50px;
+    width: 654px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFC10D;
+    color: #194F82;
+    font-family: "Fuzzy Bubbles";
+    font-size: 200%;
+    display: flex;
+    border: none;
+}
+button:hover{
+    background-color:#194F82;
+    transition: 0.2s;
+    color: #FFC10D;
+}
+#wycieczka{
+    width: 654px;
+    margin-left: 200px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    font-size: 220%;
+    border-radius: 10px;
+}
+#dad{
+    width: 310px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+#kid{
+    width: 310px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+#foot{
+    display: flex;
+    flex-direction: row;
+}
+#autor{
+    background-color: #194F82;
+    width: 300px;
+    height: 150px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+#miejsca{
+    background-color: #FFC10D;
+    width: 1600px;
+    height: 150px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+}
+#termin{
+    width: 647px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.miasta{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#gdansk{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:indianred ;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    min-width: auto;
+}
+#gdansk2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#sopot{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:goldenrod;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    min-width: auto;
+}
+#sopot2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#bieszczady{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:darkslategray ;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    min-width: auto;
+}
+#bieszczady2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#lublin{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:lightskyblue;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    min-width: auto;
+}
+#lublin2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#gdansk3{
+    display: flex;
+    flex-direction: column;
+}
+#sopot3{
+    display: flex;
+    flex-direction: column;
+}
+#bieszczady3{
+    display: flex;
+    flex-direction: column;
+}
+#lublin3{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    margin: 0;
+}

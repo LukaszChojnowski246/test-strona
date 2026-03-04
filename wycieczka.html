@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wycieczka.css" href="wycieczka.js">
+</head>
+
+<body>
+    <header>
+        <section id="wyc">
+            <img src="547065901-52ef3af3-6529-42eb-a614-9c31e550a4e1.png" alt="Wycieczkowo">
+        </section>
+        <section id="nag">
+            <img src="map-location-svgrepo-com.svg" alt="mapa" id="mapa">
+            <h2>Twój cel wyprawy</h2>
+        </section>
+    </header>
+    <section id="bigr">
+        <aside>
+            <a href="#">Wczasy</a>
+            <a href="#">Wycieczki</a>
+            <a href="#">All inclusive</a>
+            <section id="ski"></section>
+        </aside>
+        <main>
+            <section>
+                <h2>Dostępne Wycieczki</h2>
+                <ul>
+                    <li>Tydzień all inclusive w Hurghadzie(Egipt) z wylotem z warszawy</li>
+                    <li>Objazdowa wycieczka po Włoszech: Rzym - Florencja - Wenecja (8 dni)</li>
+                    <li>Wakacje na Krecie w hotelu z wyżywieniem HB (7 dni)</li>
+                    <li>City break w Paryżu z przelotem i śniadaniami (4 dni)</li>
+                    <li>Egzotyczna przygoda w Tajlandii: Bangkok i Phuket (12 dni)</li>
+                    <li>Wycieczka objazdowa po Chorwacji z rejsem po wyspach (9 dni)</li>
+                    <li>Safari w Kenii z pobytem nad oceanem w Mombasie (10 dni)</li>
+                    <li>Narty w Alpach austriackich z dojazdem autokarem (7 dni)</li>
+                </ul>
+            </section>
+            <form action="send">
+                <section id="koszta">
+                    <section id="kos">
+                        <h2>Koszta Wycieczki</h2>
+                        <h3>9876 zł</h3>
+                    </section>
+                    <section id="zta">
+                        <h2>Na dzień</h2>
+                        <h3>2026-05-25</h3>
+                    </section>
+                </section>
+                <label id="p1">
+                    <p class="text">
+                        Miejsce Wycieczki
+                    </p>
+                    <select name="Opcje" id="wycieczka">
+                        <option value="1">Hurghad</option>
+                    </select>
+                </label>
+                <label id="p2">
+                    <p class="text">
+                        Liczba dorosłych / Dzieci
+                    </p>
+                    <input type="number" name="dorosli" id="dorosli">
+                    <h2>/</h2>
+                    <input type="number" name="dzieci" id="dzieci">
+                </label>
+                <label id="p3">
+                    <p class="text">
+                        Termin
+                    </p>
+                    <input type="date" name="termin" id="termin">
+                </label>
+                <label id="p4">
+                    <p class="text">
+                        Ulgi wypoczynkowe
+                    </p>
+                    <section id="ulgi2">
+                        <p><input type="radio" name="ulgi" id="ulgi" value="50">Dużej Rodziny</p>
+                        <p><input type="radio" name="ulgi" id="ulgi" value="25">Małej Rodziny</p>
+                        <p><input type="radio" name="ulgi" id="ulgi" value="15">Rehabilitacyjna</p>
+                    </section>
+                </label>
+                <button>Oblicz</button>
+            </form>
+    </section>
+    </section>
+    </main>
+    <section id="foot">
+        <footer id="autor">
+            <h1>Autor: Łukasz Ch</h1>
+        </footer>
+        <footer id="miejsca">
+            <section id="gdansk">
+                <img src="Gdańsk.avif" alt="Gdańsk" id="gdansk2">
+                <section id="gdansk3">
+                    <p>Gdańsk</p>
+                    <h3>
+                        <p>3650 zł</p>
+                    </h3>
+                </section>
+            </section>
+            <section id="sopot">
+                <img src="sopot.jpg" alt="Sopot" id="sopot2">
+                <section id="sopot3">
+                    <p>Sopot</p>
+                    <h3>
+                        <p>2136 zł</p>
+                    </h3>
+                </section>
+            </section>
+            <section id="bieszczady">
+                <img src="Bieszczady.avif" alt="Bieszczady" id="bieszczady2">
+                <section id="bieszczady3">
+                    <p>Bieszczady</p>
+                    <h3>
+                        <p>4810 zł</p>
+                    </h3>
+                </section>
+            </section>
+            <section id="lublin">
+                <img src="lublin.jpg" alt="Lublin" id="lublin2">
+                <section id="lublin3">
+                    <p>Lublin</p>
+                    <h3>
+                        <p>3060 zł</p>
+                    </h3>
+                </section>
+            </section>
+        </footer>
+    </section>
+</body>
+
+</html>
